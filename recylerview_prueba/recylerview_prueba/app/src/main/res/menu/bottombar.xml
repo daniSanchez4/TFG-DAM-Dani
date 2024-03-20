@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/baseline_home_24"
+    android:title="Principal">
+
+</item>
+
+    <item
+        android:id="@+id/scanner"
+        android:icon="@drawable/baseline_document_scanner_24"
+        android:title="Escáner">
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/sol"
+        android:icon="@drawable/baseline_wb_sunny_24"
+        android:title="Tiempo">
+
+    </item>
+
+    <item
+        android:id="@+id/flor"
+        android:icon="@drawable/baseline_local_florist_24"
+        android:title="Jardín">
+
+    </item>
+
+
+</menu>
