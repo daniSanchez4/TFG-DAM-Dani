@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recylerview_prueba" parent="Theme.Material3.Light.NoActionBar">
+       <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowBackground">@color/oil</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/oil</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Status bar text colors handle from here -->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/oil</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Recylerview_prueba" parent="Base.Theme.Recylerview_prueba" />
+
+
+    <!-- Status bar text colors handle from here -->
+
+</resources>

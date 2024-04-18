@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/leaf"
+        android:layout_marginTop="620dp"
+        android:rotation="45"
+        android:layout_marginLeft="240dp"
+        android:id="@+id/hoja1"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/leaf"
+        android:layout_marginTop="365dp"
+
+        android:rotation="215"
+        android:id="@+id/hoja2"
+        />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:src="@drawable/leaf"
+
+
+        android:layout_marginLeft="300dp"
+        android:rotation="-40"
+        android:id="@+id/hoja3"
+        />
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:padding="20dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="32dp"
+                android:text="¡Bienvenido!"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/bv"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:orientation="horizontal"
+            android:paddingLeft="36px"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#203612"
+                android:id="@+id/cardjardin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jardín"
+                    android:textColor="@color/greene"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:id="@+id/labeljardin"
+                    />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px">
+
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/maceta"
+                    android:layout_marginTop="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/maceta"
+                    android:paddingBottom="10dp"
+
+                    android:paddingRight="20dp"
+                    >
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="16dp"
+
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#2e3a20"
+                android:id="@+id/cardtiempo">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animacionscaner1"
+                    android:layout_width="220dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/scanner"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Escáner"
+                    android:textColor="#6a864a"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:id="@+id/labeltiempo"/>
+
+            </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dp"
+            android:text="Te puede interesar"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/labelinteres"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="#1e1e1e"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/cardiden">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+
+            <TextView android:id="@+id/labelscaner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tiempo actual" android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_marginLeft="115dp" android:layout_marginTop="15dp"/>
+            <ImageView
+                android:id="@+id/animacionscaner"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+
+                android:src="@drawable/sol"
+
+
+
+                />
+
+            <TextView android:id="@+id/sublabelscaner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="temperatura, viento y humedad" android:textSize="14dp" android:textStyle="bold" android:textColor="#909090" android:layout_marginLeft="115dp" android:layout_marginTop="45dp"/>
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="#1e1e1e"
+            android:layout_marginVertical="20dp"
+            android:id="@+id/cardaprende">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+
+            <TextView android:id="@+id/labelaprende" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Aprende" android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_marginLeft="115dp" android:layout_marginTop="13dp"/>
+
+            <ImageView
+                android:id="@+id/lupa"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lupa">
+
+            </ImageView>
+
+            <TextView android:id="@+id/sublabelaprende" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sobre plantas que no conocías" android:textSize="14dp" android:textStyle="bold" android:textColor="#909090" android:layout_marginLeft="115dp" android:layout_marginTop="40dp"/>
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</FrameLayout>
