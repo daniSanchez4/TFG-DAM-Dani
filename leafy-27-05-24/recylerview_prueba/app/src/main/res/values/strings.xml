@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Leafy</string>
+    <string name="cactus">El tallo de las cactáceas, que conforman básicamente el cuerpo de la planta, están engrosados por el desarrollo del parénquima, y su color verde se debe a que son fotosintéticos</string>
+    <string name="azalea">Por lo general las azaleas son de crecimiento lento y prefieren suelos ácidos con buen drenaje. Requiere de poca cantidad de fertilizante; algunas especies requieren de poda frecuente</string>
+    <string name="lirio">Esta planta se desarrolla a partir de un bulbo subterráneo que almacena los nutrientes. Puede llegar a medir unos 90 cm de altura, siendo lo habitual encontrarse entorno a los 60 o 70 cm</string>
+    <string name="geranio">Estas plantas presentan una cierta plasticidad en cuanto a sus requerimientos de suelos, a no ser que estos sean excesivamente húmedos. Las hojas suelen ser atacadas por distintos tipos de hongos causando manchas de diversos colores. Que pueden ser combatidas con fungicidas</string>
+    <string name="fresia"> Planta los bulbos de fresia en otoño, siempre que las temperaturas no sean demasiado bajas, ya que se trata de una planta que no tolera las heladas</string>
+    <string name="violeta">La temperatura ideal para ellas está entre los 17 y los 21 grados, tenemos que ser cuidadosos con que nunca esté en un ambiente que baje de los 5 grados</string>
+    <string name="crisantemo">Pueden ser plantadas en maceteros que tengan, al menos, 20 cm de profundidad. Es importante tener cuidado de que la exposición solar no sea directa, ya que podrían quemarse</string>
+    <string name="filodendro">Los filodendros prefieren un nivel de humedad equilibrado, ni demasiado húmedo ni demasiado seco. Por lo tanto, lo mejor es palpar si la capa superior del suelo está todavía húmeda</string>
+    <string name="hiedra">Es una planta que crece mejor con mucha luz solar, aunque aguante en lugares con poca luz; de todas formas, hay que tener cuidado si esta es directa, ya que blanquea las hojas</string>
+    <string name="calathea">La Calathea necesitan un ambiente húmedo para crecer bien, por lo que se pueden colocar en un lugar con un humidificador o se puede rociar agua en sus hojas regularmente. Necesita temperaturas cálidas y húmedas</string>
+    <string name="croton">Es una planta que necesita un cierto grado de ella en el ambiente, por lo que de no tenerla es importante pulverizar sus hojas. Esta planta se desarrolla mejor en un ambiente medio o templado</string>
+    <string name="dracena">Es fundamental que esté en un emplazamiento luminoso aunque siempre tendremos que evitar que reciba luz directa, ya que sus hojas podrían quemarse. Lo ideal es dejar secar la tierra entre riego y riego</string>
+    <string name="bambu">Asegúrate de que las raíces están completamente sumergidas. El bambú de la suerte no necesita grandes dosis de luz, ya que el exceso hará que las hojas amarilleen y puede llegar a matar a la planta</string>
+    <string name="orquidea">Tiene una gran necesidad de luz, por lo que es importante encontrar el espacio adecuado para colocarla y facilitar así su floración. Necesita un alto nivel de humedad, que se debe mantener entre el 50 y el 80 % de manera regular</string>
+    <string name="pilea">Suelen sufrir bastante cuando nos excedemos con el agua. Una de las mejores opciones para hidratarlas es regarlas por inmersión. Evita la exposición directa al sol, ya que puede quemar sus hojas delicadas</string>
+    <string name="helecho">Es una planta que va muy bien en interior, pero si vives en clima húmedo, también puede funcionar colocarla también en el exterior. Asegúrate de que no recibe mucha luz directa </string>
+    <string name="suculenta">El exceso de riego puede ser letal para ellas. Durante los meses de frío, no necesitarán más de un riego cada quince días. No necesitan mucha luz</string>
+    <string name="palmera">Para desarrollarse en óptimas condiciones necesita temperaturas cálidas y climas soleados. En regiones en las que las temperaturas son más frías lo más indicado es cultivarla como planta de interior</string>
+    <string name="cinta" >No necesita luz directa, puesto que las hojas se pueden secar. Es mejor ubicarla en semisombra. Riego frecuente en verano y moderado en invierno</string>
+    <string name="aloe" >Las macetas de terracota son preferibles a cualquier otro material, ya que son porosas, con lo cual se evita el exceso de humedad. Durante el invierno se deben suspender los riegos</string>
+    <string name="lengua" >Debe tener un buen drenaje para que el exceso de agua no la mate. le encanta el sol, así que puedes acercarla a la luz natural unas cuantas horas al día. Si no recibe luz, creará pocos tallos nuevos</string>
+    <string name="monstera" >Si bien necesita un espacio con buena luz, en ningún caso puede recibirla directamente. No necesita grandes dosis de agua. Es más, el encharcamiento es precisamente, uno de sus grandes enemigos</string>
+    <string name="ficus" > Una de las características de las especies de este género es la secreción lechosa llamada látex que segregan al cortar o herir cualquier parte de la planta</string>
+    <string name="pothos" >Es muy sensible a las bajas temperaturas y a las corrientes de aire. Es una planta muy resistente, pero bajo condiciones de poco riego desarrollará hojas más pequeñas</string>
+</resources>
